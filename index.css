@@ -1,0 +1,169 @@
+.home-main-section{
+    display:flex;
+    align-items:stretch;
+    justify-content: space-between;
+    flex-grow:1;
+}
+
+.home-main-section .img-wrapper{
+    flex-grow:1;
+    flex-direction:column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+
+}
+.home-main-section .man-image{
+    background-image: url(pics/music\ guy.png);
+    flex-grow:1;
+    max-height:70vh;
+    min-width:30vw;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  
+}
+.home-main-section .call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+
+}
+
+.call-to-action {
+    position:absolute;
+    top: 435px;
+    left:888px;
+}
+.call-to-action .title{
+    position:fixed;
+    top:385px;
+    left:900px;
+
+}
+.call-to-action .titlem{
+    position:fixed;
+    top:385px;
+    left:1145px;
+
+}
+
+
+@media(max-width:900px){
+
+    .home-main-section .img-wrapper{
+        display: none;
+        
+    }
+    .home-main-section{
+        justify-content: center;
+    }
+}
+
+.home-page-circle1{
+    
+    position: absolute;
+    width:12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background: linear-gradient(127.39deg, rgba(0, 133, 255, 0.5) 14.1%, rgba(23, 98, 167, 0.15) 55.26%);
+    bottom:292px;
+    left:264px;
+    z-index: -1;
+
+}
+
+.home-page-circle2{
+
+    position:absolute;
+    min-width:15vw;
+    min-height: 15vw;
+     border-radius:50%;
+    /* bottom:-70px;
+    left:355px; */
+    bottom:0px;
+    left:350px;
+    overflow: hidden;
+    /* background: linear-gradient(225.42deg, rgba(188, 58, 128, 0.5) 25.11%, rgba(188, 58, 128, 0) 43.27%); */
+    z-index:-1;
+}
+.home-page-circle2::before{
+
+    content:'';
+    position: absolute;
+    transform: translate(0%,0%);
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(225.42deg, rgba(188, 58, 128, 0.5) 25.11%, rgba(188, 58, 128, 0) 43.27%);
+
+}
+.home-page-circle3{
+    position:absolute;
+    overflow:hidden;
+    width:22vw;
+    height: 22vw;
+    /* border-radius: 50%; */
+    /* top:520px; */
+    bottom:0;
+    right:0;
+    /* left:1350px;  */
+    z-index: -1;
+   
+}
+.home-page-circle3::before{
+   content: '';
+   transform: translate(40% ,40%);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   background: linear-gradient(73.02deg, rgba(23, 98, 167, 0.2) 22.64%, rgba(23, 98, 167, 0) 73.05%);
+   mix-blend-mode: normal;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+
+}
+
+.home-page-circle4{
+    position:absolute;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    top:-55px;
+    right: 350px;
+    z-index:-1;
+    background: linear-gradient(1.82deg, rgba(188, 58, 128, 0.4) 18.42%, rgba(188, 58, 128, 0) 102.8%);
+    transform: rotate(70.17deg);
+}
+.home-page-2circle1{
+
+    position: absolute;
+    width:3vw;
+    height :3vw;
+    border-radius: 50%;
+    z-index: -1;
+    
+    left: 900.56px;
+    top: 399.41px;
+
+    background: rgba(23, 98, 167, 0.2);
+    transform: matrix(0.83, -0.51, 0.58, 0.85, 0, 0);
+
+}
+.home-page-2circle2{
+
+    position:absolute;
+    width:3vw;
+    height:3vw;
+    border-radius: 50%;
+    z-index: -1;
+
+    left: 880px;
+    top: 417.65px;
+    
+    background: rgba(188, 58, 128, 0.2);
+    transform: matrix(0.83, -0.51, 0.58, 0.85, 0, 0);
+}
