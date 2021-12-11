@@ -1,4 +1,4 @@
 # Musicart.WebDesign
 Musicart is a mini spotify based concept website. 
 
-![landing page](https://user-images.githubusercontent.com/91843271/145674428-a3b4bb73-d76c-4aae-9c16-febe1b1357f6.png)
+![Musicart main](https://user-images.githubusercontent.com/91843271/145674712-b16f0794-cbac-4947-9b72-ca4e90f18e45.jpg)
